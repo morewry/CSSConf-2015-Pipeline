@@ -6,9 +6,9 @@ Supplementary example Github repository with example automated pipeline as discu
 
 ## Examples
 
-- [Gruntfile Tasks](blob/master/Gruntfile.js)
-- [Plugin Configuration](tree/master/tasks)
-- [Unit, Visual Diff, and E2E Tests](tree/master/tests)
+- [Gruntfile Tasks](Gruntfile.js)
+- [Plugin Configuration](tasks)
+- [Unit, Visual Diff, and E2E Tests](tests)
 
 ## More
 
