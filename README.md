@@ -1,5 +1,5 @@
 # Ops Tooling for UI
-## DevOps and the CSS Developer
+### DevOps and the CSS Developer
 ### CSSConf: June 18, 2015
 
 Supplementary example Github repository with example automated pipeline as discussed in the Ops Tooling for UI: DevOps and the CSS Developer talk given at CSSConf in NYC on June 18, 2015.
