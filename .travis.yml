@@ -1,0 +1,32 @@
+language: node_js
+
+node_js:
+  - "0.12"
+
+cache:
+  directories:
+    - node_modules
+    - bower_components
+
+before_install:
+  - npm install -g grunt-cli
+
+install:
+  - npm install
+  - bower install
+
+script:
+  - grunt build
+  - grunt test
+
+# after_success:
+#   - grunt distribute
+#
+# deploy:
+#   provider: releases
+#   api_key: "81bff63d698866c1a7be54d95005f454b025c7c3"
+#   skip_cleanup: true
+#   file:
+#     - "dist/button.js"
+#   on:
+#     tags: true

@@ -1,0 +1,17 @@
+{
+  "name": "CSSConf-2015-Pipeline",
+  "version": "0.1.0",
+  "authors": [
+    "Rachael L Moore <git@morewry.me>"
+  ],
+  "main": "dist/button.js",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/us/",
+  "ignore": [
+    "**/.git*",
+    "node_modules",
+    "bower_components",
+    "Thumbs.db",
+    ".DS_Store",
+    "tests/results/screenshots/*.png"
+  ]
+}

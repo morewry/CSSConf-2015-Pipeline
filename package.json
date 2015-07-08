@@ -1,0 +1,41 @@
+{
+  "name": "CSSConf-2015-Pipeline",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "dist/button.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test",
+    "distribute": "grunt distribute"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morewry/CSSConf-2015-Pipeline"
+  },
+  "author": "Rachael L Moore <git@morewry.me>",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/us/",
+  "bugs": {
+    "url": "https://github.com/morewry/CSSConf-2015-Pipeline/issues"
+  },
+  "homepage": "https://github.com/morewry/CSSConf-2015-Pipeline",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-jasmine": "^0.8.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phantomcss-tr": "^0.3.13",
+    "grunt-postcss": "^0.5.2",
+    "grunt-protractor-runner": "^2.0.0",
+    "grunt-release": "^0.13.0",
+    "phantomjs": "^1.9.17",
+    "quixote": "^0.7.0",
+    "selenium-standalone": "4.4.3"
+  }
+}
