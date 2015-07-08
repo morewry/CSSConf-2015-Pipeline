@@ -6,6 +6,8 @@ Supplementary example Github repository with example automated pipeline as discu
 
 ## Examples
 
+Navigate the files on Github above, especially:
+
 - [Gruntfile Tasks](Gruntfile.js)
 - [Plugin Configuration](tasks)
 - [Unit, Visual Diff, and E2E Tests](tests)
