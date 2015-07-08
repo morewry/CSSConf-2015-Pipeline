@@ -15,5 +15,6 @@ Navigate the files on Github above, especially:
 ## More
 
 - [Slides](https://docs.google.com/presentation/d/1AfvXHz9JsF8F_uC4NdVz2F01UPDm9BWrLeExWmDItZo/pub)
+- [CSSConf 2015 Video](https://www.youtube.com/watch?v=1QphyKKLGGs)
 - [Reading](https://github.com/morewry/CSSConf-2015-Pipeline/wiki/Reading)
 - [Tools](https://github.com/morewry/CSSConf-2015-Pipeline/wiki/Tools)
