@@ -1,0 +1,5 @@
+node_modules/
+bower_components/
+Thumbs.Db
+.DS_Store
+tests/results/screenshots/*.png

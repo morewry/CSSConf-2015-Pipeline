@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Custom Button</title>
+    <script src="dist/button.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var plainBtn, disabledBtn, outputArea, testCallback, numTimes = 0;
+        plainBtn = document.querySelector('#plainBtn button');
+        disabledBtn = document.querySelector('#disabledBtn button');
+        outputArea = document.querySelector('#test-output');
+        testCallback = function () {
+          numTimes++;
+          outputArea.innerHTML = ["Button clicked ", numTimes, " times"].join("");
+        };
+        plainBtn.addEventListener("click", testCallback);
+        disabledBtn.addEventListener("click", testCallback);
+      });
+    </script>
+    <style>
+      html {
+        color: #444;
+        font-family: sans-serif;
+        line-height: 1.5;
+      }
+      body {
+        padding: 0 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      hr {
+        margin: 1.5rem 0;
+        border: 0 solid #444;
+        border-width: 1px 0 0 0;
+      }
+      i {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: -0.25rem;
+        background: #999;
+      }
+      .test-case {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        width: 225px;
+      }
+      #test-output {
+        display: block;
+        margin: 1rem 0.25rem;
+        padding: 0.25rem 0.5rem;
+        background: #EEE;
+      }
+      #test-output:empty {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>With Type</h1>
+
+    <div class="test-case" data-qa="type-plain" id="plainBtn">
+      <custom-button type="submit">
+        Plain Text
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="type-long">
+      <custom-button type="submit">
+        Really really really really really long string
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="type-icon">
+      <custom-button type="submit">
+        <span>
+          <i></i>
+          <b>With Icon</b>
+          </span>
+      </custom-button>
+    </div>
+
+    <hr>
+    <h1>Block Variant</h1>
+
+    <div class="test-case" data-qa="block-plain" id="blockBtn">
+      <custom-button layout="block">
+        Plain Text
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="block-long">
+      <custom-button layout="block">
+        Really really really really really long string
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="block-icon">
+      <custom-button layout="block">
+        <span>
+          <i></i>
+          <b>With Icon</b>
+          </span>
+      </custom-button>
+    </div>
+
+    <hr>
+    <h1>Disabled</h1>
+
+    <div class="test-case" data-qa="disabled-plain" id="disabledBtn">
+      <custom-button disabled="disabled">
+        Plain Text
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="disabled-long">
+      <custom-button disabled="disabled">
+        Really really really really really long string
+      </custom-button>
+    </div>
+
+    <div class="test-case" data-qa="disabled-icon">
+      <custom-button disabled="disabled">
+        <span>
+          <i></i>
+          <b>With Icon</b>
+          </span>
+      </custom-button>
+    </div>
+
+    <div id="test-output"></div>
+
+  </body>
+</html>

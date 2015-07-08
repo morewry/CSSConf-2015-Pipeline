@@ -1,0 +1,13 @@
+{
+  "important": true,
+  "known-properties": true,
+  "overqualified-elements": true,
+  "compatible-vendor-prefixes": true,
+  "duplicate-properties": true,
+  "empty-rules": true,
+  "fallback-colors": true,
+  "import": true,
+  "rules-count": true,
+  "vendor-prefix": true,
+  "zero-units": true
+}
